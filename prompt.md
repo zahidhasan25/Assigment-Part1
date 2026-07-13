@@ -1,0 +1,1 @@
+Create a modern FAQ section for DevConf 2026 using only HTML and CSS with 5 questions and a clean design.
