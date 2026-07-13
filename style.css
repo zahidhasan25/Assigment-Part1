@@ -373,3 +373,41 @@ footer {
     background: #0F172A;
     padding: 50px 0 25px;
 }
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:150px;
+}
+
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons img{
+    width:28px;
+    height:28px;
+    transition:.3s;
+}
+
+.social-icons img:hover{
+    transform:scale(1.15);
+}
+
+footer hr{
+    width:80%;
+    margin:30px auto;
+    border:none;
+    border-top:1px solid #334155;
+}
+
+.copyright{
+    text-align:center;
+    color:#94A3B8;
+    font-size:15px;
+}
