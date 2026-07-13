@@ -6,7 +6,7 @@
 
 
 .container {
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -26,6 +26,7 @@ nav ul {
     gap: 50px;
     text-align: center;
     font-style: italic;
+
 }
 
 ul li a {
@@ -98,7 +99,6 @@ ul li a:hover {
     cursor: pointer;
 }
 
-/* priching */
 .speakers {
     width: 90%;
     max-width: 1200px;
@@ -162,6 +162,7 @@ ul li a:hover {
     color: #666;
     font-size: 15px;
 }
+
 
 /* priching
 
@@ -291,11 +292,20 @@ div ul li {
     color: #ffffff;
 }
 
+.pro-card ul li {
+    color: #E5E7EB;
+}
+
 .pro-card hr {
     border: none;
     border-top: 1px solid #334155;
 }
 
+.pro-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
 
 .pro-card ul li {
     display: flex;
@@ -305,7 +315,6 @@ div ul li {
     color: #E5E7EB;
 }
 
-/* FAQ- */
 .dot {
     width: 6px;
     height: 6px;
@@ -373,41 +382,42 @@ footer {
     background: #0F172A;
     padding: 50px 0 25px;
 }
-.footer-top{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-logo img{
-    width:150px;
+.footer-logo img {
+    width: 150px;
 }
 
 
-.social-icons{
-    display:flex;
-    gap:20px;
+.social-icons {
+    display: flex;
+    gap: 20px;
 }
 
-.social-icons img{
-    width:28px;
-    height:28px;
-    transition:.3s;
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    transition: .3s;
 }
 
-.social-icons img:hover{
-    transform:scale(1.15);
+.social-icons img:hover {
+    transform: scale(1.15);
 }
 
-footer hr{
-    width:80%;
-    margin:30px auto;
-    border:none;
-    border-top:1px solid #334155;
+footer hr {
+    width: 80%;
+    margin: 30px auto;
+    border: none;
+    border-top: 1px solid #334155;
 }
 
-.copyright{
-    text-align:center;
-    color:#94A3B8;
-    font-size:15px;
+.copyright {
+    text-align: center;
+    color: #94A3B8;
+    font-size: 15px;
 }
